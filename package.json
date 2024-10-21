@@ -1,6 +1,9 @@
 {
   "name": "express-simple-starter",
   "private": true,
+  "engines": {
+    "node": "18.20.3"
+  },
   "scripts": {
     "start": "node index.js"
   },
