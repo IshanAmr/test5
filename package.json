@@ -5,7 +5,8 @@
     "node": "18.20.3"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "npm install sqlite3"
   },
   "dependencies": {
     "cors": "^2.8.5",
